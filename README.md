@@ -5,3 +5,8 @@
 * Node
   * Express
 * Mongodb
+
+## Upgrades
+
+* Mongodb -> mongoose
+* Better folder structure
