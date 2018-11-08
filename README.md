@@ -1,5 +1,10 @@
 # Base Api Rest
 
+## Install + Start
+
+* npm install
+* npm run dev
+
 ## Stack
 
 * Node

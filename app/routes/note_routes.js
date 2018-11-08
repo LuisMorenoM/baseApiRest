@@ -9,8 +9,8 @@ module.exports = function(app, db) {
 			res.send(JSON.stringify(items))
 		});
 	})
-	
-	//get
+
+	//get 1 - findOne
 	app.get('/notes/:id', (req, res) => {
 		const id = req.params.id
 		const details = {
@@ -24,7 +24,7 @@ module.exports = function(app, db) {
 	      		if (item) {
 					res.send(item)
 	      		} else {
-	      			res.send("Nada hermano")
+	      			res.send("Nothing here")
 	      		}
 	      	} 
 	    });

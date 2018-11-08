@@ -1,3 +1,3 @@
-module.exports = {
-  url : 'mongodb://localhost:27017/notesdb'
-};
+
+let mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/auth', { useNewUrlParser: true });
